@@ -4,7 +4,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node -r dotenv/config server.js"
+    "dev": "node -r dotenv/config server.js",
+    "test": "jest",
+    "lint": "eslint ."
+
     
   },
   "keywords": [],
